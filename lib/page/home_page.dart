@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:thevoice/api/speech_api.dart';
 import 'package:thevoice/main.dart';
 import 'package:thevoice/widget/substring_highlighted.dart';
-
+import 'package:share_plus/share_plus.dart';
 import '../utils.dart';
 
 class HomePage extends StatefulWidget {
@@ -22,6 +22,14 @@ class _HomePageState extends State<HomePage> {
           title: Text(MyApp.title),
           centerTitle: true,
           actions: [
+            Builder(
+              builder: (context) => IconButton(
+                icon: Icon(Icons.share),
+                onPressed: () async {
+                  Share.share(text);
+                },
+              ),
+            ),
             Builder(
               builder: (context) => IconButton(
                 icon: Icon(Icons.content_copy),
