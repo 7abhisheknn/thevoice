@@ -34,4 +34,5 @@ form pub.dev
 </table>
 
 app with full details are given in below video
-<video src='video\1.mp4' width=380/>
+https://user-images.githubusercontent.com/78312401/168877326-2930570a-9fd3-42e5-b3c8-f25d2fa4cf84.mp4
+
