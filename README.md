@@ -34,6 +34,4 @@ form pub.dev
 </table>
 
 app with full details are given in below video
-<video width="320" height="240" controls>
-  <source src="video\1.mp4" type="video/mp4">
-</video>
+<video src='video\1.mp4' width=380/>
